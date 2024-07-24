@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Box, Input, Grid, GridItem, Skeleton, Heading } from '@chakra-ui/react';
 import NewsItem from '../components/NewsItem';
 
-const API_KEY = 'df038ea284c9464782416052da2c9f6d'; // Ganti dengan API key dari newsapi.org
+const API_KEY = 'df038ea284c9464782416052da2c9f6d'; 
 
 function Home() {
   const [news, setNews] = useState([]);
@@ -36,7 +36,7 @@ function Home() {
       {loading ? (
         <Grid templateColumns="repeat(6, 1fr)" gap={4}>
           {[...Array(10)].map((_, i) => (
-            <Skeleton height={i % 6 === 0 ? "400px" : "200px"} width="100%" key={i} />
+            <Skeleton height={i % 4 === 0 ? "400px" : "200px"} width="100%" key={i} />
           ))}
         </Grid>
       ) : (

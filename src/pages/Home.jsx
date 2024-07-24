@@ -1,10 +1,9 @@
-
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Box, Input, Grid, GridItem, Skeleton, Heading } from '@chakra-ui/react';
 import NewsItem from '../components/NewsItem';
 
-const API_KEY = 'df038ea284c9464782416052da2c9f6d'; 
+const API_KEY = import.meta.env.VITE_NEWS_API_KEY || 'df038ea284c9464782416052da2c9f6d'; 
 
 function Home() {
   const [news, setNews] = useState([]);

@@ -1,8 +1,31 @@
-# React + Vite
+# Website Berita
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Prasyarat
 
-Currently, two official plugins are available:
+Pastikan Anda telah menginstal [Node.js](https://nodejs.org/) di sistem Anda.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalasi
+
+1. Clone repositori ini:
+
+```
+git clone https://github.com/andrianggoro21/test-swadaya.git
+```
+
+2. Pindah ke direktori project:
+
+```
+cd test-swadaya
+```
+
+3. Instal dependensi:
+
+```
+npm install
+```
+
+4. Menjalankan aplikasi dalam mode pengembangan:
+
+```
+npm run dev
+```
